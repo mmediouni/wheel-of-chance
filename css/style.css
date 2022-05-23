@@ -1,0 +1,58 @@
+body{
+    background-color: #f2f2f2;
+}
+
+
+main {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.tyre {
+    width: 250px;
+    height: 250px;
+    background: url('../img/wheel-10tn.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 100px;
+}
+
+#arrow {
+    width: 250px;
+    height: 250px;
+    transition: transform 5s;
+    background: url('../img/arrow.png');
+    background-size: cover;
+    background-position: center;
+    z-index: 1000;
+}
+
+button {
+    border-radius: 10px;
+  margin: 0.2em 0.3em;
+  transition-timing-function: cubic-bezier(0, 0, 0, 1);
+  background-color: #a3a2a2c7;
+  padding:0.4em 1em;
+  font-size: 0.8em;
+}
+
+ h1{
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0.5em;
+ } 
+    footer p{
+        margin-top: 50px;
+        text-align: center;
+        font-size: 1.32em;
+    }
+
+    #message {
+        padding: 20px;
+    }
