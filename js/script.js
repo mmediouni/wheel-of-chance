@@ -10,7 +10,7 @@ function paly(min, max) {
     var degrees = Math.floor(Math.random() * (max - min + 1)) + min;
     var arrow = document.getElementById("arrow");
     var msg = document.getElementById("message");
-    var counter = 5100;
+    var counter = 1100;
 
     if (degrees >= 0 && degrees <= 29) {
         arrow.style.transform = "rotate(" + degrees + "deg)";
